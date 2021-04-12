@@ -5,21 +5,21 @@ public class Magazine extends Items {
     String number;
     String title;
 
-    public String getNumber() {
-        return number;
+
+
+    public Magazine(String number, String title) {
+        this.number = number;
+        this.title = title;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public String getNumber() {
+        return number;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
 
 }

@@ -26,10 +26,7 @@ public class Student extends User {
 
 
 
-    Student student0 = new Student("Jan", "Pytlarczyk");//to sa obiekty
-    Student student1 = new Student("Michał", "Pytla");
-    Student student2 = new Student("Ania", "Kobyłka");
-    Student student3 = new Student("Ola", "Piwko");
+
 
 
 }
