@@ -1,6 +1,6 @@
-package Library;
+package qa.agh.edu;
 
-public class Student extends User {
+public class Student extends Library {
 
      String name; // deklaracja zmeinnej
      String lastName;

@@ -1,4 +1,4 @@
-package Library;
+package qa.agh.edu;
 
 public class Book extends Items {
 

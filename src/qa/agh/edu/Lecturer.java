@@ -1,6 +1,6 @@
-package Library;
+package qa.agh.edu;
 
-public class Lecturer extends User {
+public class Lecturer extends Library {
     String name;
     String lastName;
 

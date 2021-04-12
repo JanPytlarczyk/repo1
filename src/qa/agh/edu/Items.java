@@ -1,7 +1,4 @@
-package Library;
-
-import java.util.ArrayList;
-import java.util.HashMap;
+package qa.agh.edu;
 
 public class Items {
     public static void main(String[] args) {
@@ -14,6 +11,8 @@ public class Items {
         Magazine magazine1 = new Magazine("2", "Gazeta");
         Magazine magazine2 = new Magazine("12", "CyberMycha");
         Magazine magazine3 = new Magazine("3", "Times");
+
+        System.out.println("pojedyńcze czasopismo: " + magazine1.title + " numer " + magazine1.number);
 
 
 

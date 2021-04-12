@@ -1,4 +1,4 @@
-package Library;
+package qa.agh.edu;
 
 public class Status {
     static String status(boolean isLecturer){
