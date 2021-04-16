@@ -1,11 +1,12 @@
 package qa.agh.edu;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class Library {
     public Library() {
-
+        
 
         Student student0 = new Student("Jan", "Mickiewicz");//to sa obiekty (muszą być w User)
         Student student1 = new Student("Michał", "Pytla");
@@ -35,7 +36,7 @@ public class Library {
             //System.out.println(cardNumber.get(j) + " " + allUsers.get(j));
         }
 
-        public void printAllUsers () {
+        public void printAllUsers() {
 
 
             System.out.println(cardNumber.get(j) + " " + allUsers.get(j));
