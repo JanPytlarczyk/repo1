@@ -1,25 +1,23 @@
 package qa.agh.edu;
 
-public class Magazine extends Items {
+public class Magazine extends Item {
 
-    String number;
-    String title;
-
-
+    private String number;
 
     public Magazine(String number, String title) {
-        this.number = number;
-        this.title = title;
+        super(number,title);
+        this.number=number;
     }
 
-    public String getNumber() {
+    public String getField() {
         return number;
     }
 
-    public String getTitle() {
-        return title;
+    @Override
+    public String toString() {
+        return "Magazine{" +
+                "number='" + number + '\'' +
+                ", title='" + title + '\'' +
+                '}';
     }
-
-
-
 }

@@ -1,27 +1,23 @@
 package qa.agh.edu;
 
-public class Book extends Items {
+public class Book extends Item {
 
-    String author;
-    String title;
+    protected String author;
 
     public Book(String author, String title) {
-        this.author = author;
-        this.title = title;
+        super(author,title);
+        this.author=author;
     }
 
     public String getAuthor() {
         return author;
     }
 
-    public String getTitle() {
-        return title;
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                '}';
     }
-
-
-
-
-
-
-
 }

@@ -1,32 +1,17 @@
 package qa.agh.edu;
 
-public class Student extends Library {
-
-     String name; // deklaracja zmeinnej
-     String lastName;
+public class Student extends User {
 
 
-    public Student(String name, //to jest konstruktor (setter)
-                   String lastName) {
-        this.name = name;
-        this.lastName = lastName;
-
+    public Student(String firstName, String lastName) {
+        super(firstName, lastName);
     }
 
-    public String getName() {
-
-        return name;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
-
-
-    public String getLastName() {
-
-        return lastName;
-    }
-
-
-
-
-
-
 }

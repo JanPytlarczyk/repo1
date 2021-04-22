@@ -1,28 +1,17 @@
 package qa.agh.edu;
 
-public class Lecturer extends Library {
-    String name;
-    String lastName;
+public class Lecturer extends User{
 
 
-
-    public Lecturer(String name, String lastName){
-        this.name = name;
-        this.lastName = lastName;
-
+    public Lecturer(String firstName, String lastName) {
+        super(firstName, lastName);
     }
 
-    public String getName() {
-
-        return name;
+    @Override
+    public String toString() {
+        return "Lecturer{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
-
-    public String getLastName() {
-
-        return lastName;
-    }
-
-
-
-
 }
